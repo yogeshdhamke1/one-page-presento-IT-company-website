@@ -1,0 +1,268 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap');
+
+html, *{
+    font-family: 'Open Sans', sans-serif;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+}
+
+.imgtxt {
+  font-size: 0px;
+    position: relative;
+    text-align: center;
+    color: white;
+  }
+  
+  .centered {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+  }
+
+  .aboutcom {
+    padding-top: 80px;
+    padding-bottom: 80px;
+  }
+  .aboutcom2 h2{
+    font-size: 40px;
+  }
+  .aboutcom2 p{
+    font-size: 20px;
+    line-height: 39px;
+    padding-top: 20px;
+  }
+  .aboutcom3 h3{
+    font-size: 25px;
+  }
+  .aboutcom3 p{
+    padding-top: 10px;
+    line-height: 24px;
+    padding-bottom: 10px;
+  }
+  .mainsub i{
+    font-size: 40px;
+    color: #e03a3c;
+    margin-bottom: 0px;
+  }
+ .about-btn {
+    padding: 8px 30px 9px 30px;
+    color: black;
+    border-radius: 50px;
+    transition: 0.3s;
+    text-transform: uppercase;
+    font-weight: 600;
+    font-size: 13px;
+    display: inline-flex;
+    align-items: center;
+    border: 2px solid #e03a3c;
+    text-decoration: none;
+}
+.about-btn:hover{
+    color: white;
+    background: #e03a3c;
+
+}
+.countmain{
+    padding-top: 0px;
+    /* padding-bottom: 80px; */
+}
+.countmain i{
+    font-size: 25px;
+    color: #e03a3c;
+    margin-bottom: 0px;
+}
+.countmain h2{
+    font-weight: 700;
+    margin-top: 10px;
+}
+.tabmain{
+    padding-top: 80px;
+}
+.tabmain p{
+    line-height: 1.5;
+}
+.tabmain li{
+    line-height: 2;
+}
+.tabmain h2{
+    margin-top: -7px;
+}
+
+.three-columns img{
+    width: 32%;
+    display: flexbox;
+  }
+  @media  (min-width: 561px){
+    .mainsub {
+        padding-top: 40px;
+         }
+         
+
+  }
+  @media  (min-width: 768px){
+    .abouthaif {
+        display: inline-flex;
+         max-width: 100%;
+         }
+         .teammain .col-md-3{
+           float: right;
+           max-width: 50%;
+         }
+         .tabmain h2 {
+          margin-top: 26px;
+      }     
+
+  }
+
+  @media  (max-width: 768px){
+    .tabmain h2 {
+      margin-top: 26px;
+  } 
+    .mainsub{
+        text-align: center;
+        align-items: center;
+    padding-top: 40px;
+    }
+    .centered h1 h2 {
+      font-size: 20px;
+     }    
+    
+}
+.sermain .icon-box {
+    padding-top: 30px;
+}
+.icon-box i {
+    float: left;
+    color: #e03a3c;
+    font-size: 40px;
+}
+.icon-box a{
+  font-size: 20px;
+    margin-left: 28px;
+}
+ .icon-box h2 {
+    margin-left: 70px;
+    font-weight: 700;
+    margin-bottom: 15px;
+    font-size: 18px;
+}
+.icon-box p {
+    padding-top: 10px;
+    margin-left: 70px;
+    line-height: 24px;
+    font-size: 16px;
+}
+.icon-box p {
+    margin-left: 70px;
+    line-height: 24px;
+    font-size: 14px;
+}
+ 
+/* price */
+.primain .col-md-3, .col-md-4{
+  background: #2b2b2b;
+  /* border: 1px solid red; */
+  margin: 10px;
+  padding: 40px;
+  padding-top: 50px;
+  padding-bottom: 50px;
+}
+.primain .col-md-3 .fisrtp, .col-md-4 .fisrtp{
+  padding-bottom: 10px;
+  font-size: 20px;
+  font-weight: 700;
+}
+.primain .col-md-3 p, .col-md-4 p{
+  line-height: 30px;
+  font-size: 15px;
+}
+ .btn-wrap .btn-buy{
+  display: inline-block;
+    padding: 10px 40px 12px 40px;
+    border-radius: 4px;
+    color: rgb(255, 255, 255);
+    transition: none;
+    font-size: 14px;
+    font-weight: 400;
+    font-family: "Raleway", sans-serif;
+    font-weight: 600;
+    transition: 0.3s;
+    border: 2px solid rgba(255, 255, 255, 0.3);
+}
+.btn-wrap .btn-buy:hover {
+  border: 2px solid white;
+}
+.blackdiv{
+  background: #1b1b1b;
+  color: white;
+
+}
+
+/* fre ques */
+.panel-title a{
+  font-size: 20px;
+}
+.panel-title a:hover{
+  color: #e03a3c;
+}
+.panel-body {
+  text-underline-offset: unset;
+  text-decoration: none;
+  font-size: 16px;
+}
+
+/* content */
+.consub{
+  background: white !important;
+  /* border: 1px solid red; */
+  margin: 10px;
+  padding: 40px;
+  padding-top: 50px;
+  padding-bottom: 50px;
+}
+.consub i{
+  font-size: 30px;
+  color: #e03a3c;
+  margin-bottom: 20px;
+
+}
+.consub h2{
+  font-size: 21px;
+  
+}
+
+/* navbar */
+.navbar-fixed-top{
+  padding: 20px;
+    font-size: 16px;
+    background: white;
+    color: black;
+}
+.navbar-collapse a{
+  color: black !important;
+  font-size: 20px; 
+ 
+}
+.navbar-collapse a:hover{
+  color: #e03a3c !important;
+}
+.navbar-fixed-bottom .navbar-collapse, .navbar-fixed-top .navbar-collapse {
+  max-height: 400px;
+}
+
+.sped1 {
+  overflow: hidden;            /* clip the excess when child gets bigger than parent */
+}
+.sped1 img {
+  
+  transition: transform .4s;   /* smoother zoom */
+}
+.sped1:hover img {
+  transform: scale(1.2);
+  transform-origin: 50% 50%;
+}
+.navbar-toggle{
+  color: red;
+  background: brown;
+}
